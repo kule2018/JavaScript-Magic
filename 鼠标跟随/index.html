@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>鼠标跟随</title>
+</head>
+<style>
+    body {
+        background-color: #000;
+    }
+    #ball {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px 2px #3F51B5;
+        background-color: #1c46e0;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+</style>
+<body>
+    <div id="ball">
+
+    </div>
+</body>
+<script>
+    let ball = document.getElementById('ball');
+    let leaderX = 0,targetX = 0,leaderY = 0,targetY = 0,speed = 30,step = 10;
+    setInterval(()=>{
+        leaderX = leaderX + (targetX-leaderX) / step;
+        leaderY = leaderY + (targetY-leaderY) / step;
+        ball.style.left = leaderX + 'px';
+        ball.style.top = leaderY + 'px';
+        console.log(111);
+    },speed);
+    window.onmousemove = (event)=>{
+        targetX = event.clientX - ball.offsetWidth / 2;
+        targetY = event.clientY - ball.offsetHeight / 2;
+    }
+</script>
+</html>
