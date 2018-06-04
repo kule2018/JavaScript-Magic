@@ -9,4 +9,6 @@ JavaScript特效页面的展示
 ### 特效列表
 
  [筋斗云导航栏](https://the-never.github.io/JavaScript-Magic/筋斗云)
+ 
+ [鼠标跟随](https://the-never.github.io/JavaScript-Magic/鼠标跟随)
 
