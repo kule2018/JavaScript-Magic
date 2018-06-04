@@ -4,6 +4,6 @@ JavaScript特效页面的展示
 长期更新，欢迎收藏
 
 ```
- [筋斗云特效]('./筋斗云') 
+ 欢迎来到[梵居闹市](http://blog.leanote.com/freewalk)
 ```
 
