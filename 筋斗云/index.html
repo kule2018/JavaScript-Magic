@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <title>筋斗云特效</title>
+</head>
+<style>
+    body {
+        background-color: #000;
+    }
+
+    ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        cursor: pointer;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    li {
+        float: left;
+        width: 83px;
+        height: 42px;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    #app {
+        position: relative;
+        margin: 100px auto;
+        width: 800px;
+        height: 42px;
+        border-radius: 5px;
+        background: url(./images/wifi.png) no-repeat right center #fff;
+    }
+
+    #cloud {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 83px;
+        height: 42px;
+        background: url(./images/cloud.gif);
+    }
+</style>
+
+<body>
+    <div id="app">
+        <div id="cloud"></div>
+        <ul>
+            <li>百里挑一</li>
+            <li>金玉满堂</li>
+            <li>背水一战</li>
+            <li>霸王别姬</li>
+            <li>天上人间</li>
+            <li>海阔天空</li>
+            <li>皆大欢喜</li>
+            <li>天选之子</li>
+        </ul>
+    </div>
+</body>
+<script>
+    let cloud = document.getElementById('cloud');
+    let lis = document.getElementsByTagName('li');
+    let leader = 0, target = 0, step = 10, speed = 10,current = 0;
+
+    setInterval(() => {
+        leader = leader + (target - leader) / step;
+        cloud.style.left = leader + 'px';
+    }, speed);
+
+    for (let li of lis) {
+        li.onmousemove = () => {
+            target = li.offsetLeft;
+        }
+        li.onmouseout = () =>{
+            target = current;
+        }
+        li.onclick = () =>{
+            current = li.offsetLeft;
+        }
+    }
+
+    function moveTo(target) {
+
+    }
+
+</script>
+
+</html>>
