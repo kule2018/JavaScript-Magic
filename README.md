@@ -4,7 +4,7 @@ JavaScript特效页面的展示
 长期更新，欢迎收藏
 
 ### 展示页面
- [帕尼尼的JavaScript特性](https://the-never.github.io/JavaScript-Magic/)
+ [帕尼尼的JavaScript特效](https://the-never.github.io/JavaScript-Magic/)
 
 ### 特效列表
 
