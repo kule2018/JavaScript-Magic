@@ -13,4 +13,6 @@ JavaScript特效页面的展示
  [鼠标跟随](https://the-never.github.io/JavaScript-Magic/鼠标跟随)
  
  [放大镜](https://the-never.github.io/JavaScript-Magic/放大镜)
+ 
+ [滚动条](https://the-never.github.io/JavaScript-Magic/滚动条)
 
