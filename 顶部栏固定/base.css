@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#top,#bar {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#top {
+    height: 80px;
+    line-height: 80px;
+    background-color: #009688;
+}
+
+#bar {
+    height: 50px;
+    line-height: 50px;
+    background-color: #2196F3;
+}
+
+#content {
+    padding: 20px 0px; 
+    text-align: center;
+    font-size: 14px;
+    background-color: #795548;
+    color: #FFFFCC;
+}
