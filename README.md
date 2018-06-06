@@ -13,4 +13,5 @@ JavaScript特效页面的展示
  [放大镜](https://the-never.github.io/JavaScript-Magic/放大镜)    
  [滚动条](https://the-never.github.io/JavaScript-Magic/滚动条)
  [垂直滚动条](https://the-never.github.io/JavaScript-Magic/垂直滚动条)
+ [顶部栏固定](https://the-never.github.io/JavaScript-Magic/顶部栏固定)
 
