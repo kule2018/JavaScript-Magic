@@ -10,7 +10,7 @@ JavaScript特效页面的展示
 
  [筋斗云导航栏](https://the-never.github.io/JavaScript-Magic/筋斗云)    
  [鼠标跟随](https://the-never.github.io/JavaScript-Magic/鼠标跟随)    
- [放大镜](https://the-never.github.io/JavaScript-Magic/放大镜)
+ [放大镜](https://the-never.github.io/JavaScript-Magic/放大镜)                                                                             
  [滚动条](https://the-never.github.io/JavaScript-Magic/滚动条)                                                                             
  [垂直滚动条](https://the-never.github.io/JavaScript-Magic/垂直滚动条)                                                                       
  [顶部栏固定](https://the-never.github.io/JavaScript-Magic/顶部栏固定)
