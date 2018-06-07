@@ -1,0 +1,30 @@
+body {
+    background-color: #795548;
+    color: #fff;
+}
+
+
+#advert{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #4CAF50;
+    box-shadow: 0px 0px 10px 1px #8BC34A;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+#advert > p {
+    font-size: 12px;
+}
+article {
+    padding: 20px 300px;
+}
+article > p {
+    text-indent: 2em;
+}
