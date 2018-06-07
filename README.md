@@ -13,6 +13,6 @@
  [放大镜](https://the-never.github.io/JavaScript-Magic/放大镜)                                                                             
  [滚动条](https://the-never.github.io/JavaScript-Magic/滚动条)                                                                             
  [垂直滚动条](https://the-never.github.io/JavaScript-Magic/垂直滚动条)                                                                       
- [顶部栏固定](https://the-never.github.io/JavaScript-Magic/顶部栏固定)
+ [顶部栏固定](https://the-never.github.io/JavaScript-Magic/顶部栏固定)                                                                       
  [广告跟随](https://the-never.github.io/JavaScript-Magic/广告跟随)
 
