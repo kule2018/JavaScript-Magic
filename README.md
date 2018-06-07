@@ -15,5 +15,6 @@
  [垂直滚动条](https://the-never.github.io/JavaScript-Magic/垂直滚动条)                                                                       
  [顶部栏固定](https://the-never.github.io/JavaScript-Magic/顶部栏固定)                                                                       
  [广告跟随](https://the-never.github.io/JavaScript-Magic/广告跟随)     
- [返回顶部](https://the-never.github.io/JavaScript-Magic/返回顶部)
+ [返回顶部](https://the-never.github.io/JavaScript-Magic/返回顶部)                                                                           
+ [浏览器滑动](https://the-never.github.io/JavaScript-Magic/浏览器滑动)
 
